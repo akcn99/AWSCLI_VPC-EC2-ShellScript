@@ -20,15 +20,15 @@
  NOCOLOR=$'\e[1;0m'
  ###############################################################
 # Decalre variables
-AWS_REGION="us-west-1"
+AWS_REGION="us-east-1"
 VPC_NAME="VPC_QA"
 VPC_CIDR="10.20.0.0/16"
 SUBNET_CIDR="10.20.1.0/24"
-SUBNET_AZ="us-west-1a"
+SUBNET_AZ="us-east-1b"
 SUBNET_NAME="QA_SUBNET20"
-IGW_NAME="IGW-US-WEST-QA"
-RT_NAME="RT-US-WEST-QA"
-SG_NAME="SG-US-WEST-QA"
+IGW_NAME="IGW-US-QA"
+RT_NAME="RT-US-QA"
+SG_NAME="SG-US-QA"
 InstName="QAInstance"
 ###############################################################
 # Create VPC
